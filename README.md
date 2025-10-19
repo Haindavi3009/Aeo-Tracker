@@ -34,7 +34,18 @@ You can use the pre-seeded test account to explore the dashboard immediately:
 * **Deployment:** Vercel
 
 ---
+🤖 AI Tools Used
 
+I leveraged several AI tools throughout this project to increase efficiency and improve the quality of the final product. All AI-generated output was reviewed, tested, and refactored by me to ensure it met the project's requirements.
+
+* **VS Code GitHub Copilot:** Used as an in-editor assistant for real-time code completion, generating boilerplate for React components, and scaffolding utility functions. This significantly accelerated the initial development and typing-intensive tasks.
+
+* **Gemini:** Acted as a development partner for higher-level tasks. I used it for debugging complex code blocks, refactoring functions for better readability, and generating the detailed explanations for the documentation you see in this README file.
+
+* **Supabase AI Assistant:** Leveraged directly within the Supabase dashboard to generate and optimize the initial SQL schema. It was particularly helpful for drafting the complex Row-Level Security (RLS) policies and the PL/pgSQL database functions (`get_project_kpis`, `get_project_trend`).
+
+* **Google AI Studio:** Utilized for prototyping and experimenting with prompt engineering. This was helpful in the early stages for brainstorming the logic for the heuristic-based "Recommendations" feature.
+-- =============================================
 ## Database Schema
 
 Here is the complete SQL schema used for the Supabase database, including tables, RLS policies, and helper functions.
